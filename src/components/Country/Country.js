@@ -1,10 +1,13 @@
 import React from 'react';
-
-const Country = () => {
+import './Country.css'
+const Country = (props) => {
+    const {name,flags,population} = props.country
     return (
-        <div>
-            <h2>Import from another folder!!!</h2>
-        </div>
+           <div className='country'>
+               <img src={flags.png} alt="" />
+                <h2>Country:{name.common}</h2> 
+                <h4>Population:{population}</h4> 
+            </div>
     );
 };
 

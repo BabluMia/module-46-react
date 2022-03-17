@@ -1,0 +1,13 @@
+.country{
+    margin: 20px;
+    background-color: aqua;
+    padding: 20px 0;
+    border-radius: 15px;
+    transition: .4s all ease;
+}
+.country:hover{
+    transform: translateY(-10px);
+}
+.country img{
+    width: 200px;
+}
